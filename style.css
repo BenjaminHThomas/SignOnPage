@@ -1,0 +1,11 @@
+body {
+    display: flex;
+    flex-direction: row;
+    margin: 0;
+}
+
+.sidebarIMG {
+    height: 100vh;
+    max-width: 20vw;
+    object-fit: cover;
+}

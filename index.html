@@ -5,9 +5,29 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
-    <title>Document</title>
+    <title>Sign in</title>
 </head>
 <body>
-    
+    <img src="ferns.avif" alt="ferns" class="sidebarIMG">
+    <div class="formBody">
+        <p>This isn't a real online service! I'm trying to teach myself webdev and this is one of the projects in TheOdinProject. Check out the forms below!</p>
+        <fieldset>
+            <legend>Sign up below!</legend>
+            <label for="firstName">First Name</label>
+            <input type="text" id="firstName" name="firstName">
+            <label for="lastName">Last Name</label>
+            <input type="text" name="lastName" id="lastName">
+            <label for="email">Email</label>
+            <input type="email" name="email" id="email">
+            <label for="phone">Phone Number</label>
+            <input type="number" name="phone" id="phone">
+            <label for="password">Password</label>
+            <input type="password" name="password" id="password">
+            <label for="confPassword">Confirm Password</label>
+            <input type="confPassword" name="confPassword" id="confPassword">
+        </fieldset>
+        <button type="submit">Create Account</button>
+        <p>Already have an account? <a>Log in</a></p>
+    </div>
 </body>
 </html>
