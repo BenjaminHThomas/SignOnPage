@@ -12,22 +12,29 @@
     <div class="formBody">
         <p>This isn't a real online service! I'm trying to teach myself webdev and this is one of the projects in TheOdinProject. Check out the forms below!</p>
         <fieldset>
-            <legend>Sign up below!</legend>
-            <label for="firstName">First Name</label>
-            <input type="text" id="firstName" name="firstName">
-            <label for="lastName">Last Name</label>
-            <input type="text" name="lastName" id="lastName">
-            <label for="email">Email</label>
-            <input type="email" name="email" id="email">
-            <label for="phone">Phone Number</label>
-            <input type="number" name="phone" id="phone">
-            <label for="password">Password</label>
-            <input type="password" name="password" id="password">
-            <label for="confPassword">Confirm Password</label>
-            <input type="confPassword" name="confPassword" id="confPassword">
+            <legend>Sign up homie, you know you want to</legend>
+
+            <div class="fieldChild1">
+                <label for="firstName">First Name</label>
+                <input type="text" id="firstName" name="firstName">
+                <label for="email">Email</label>
+                <input type="email" name="email" id="email">
+                <label for="password">Password</label>
+                <input type="password" name="password" id="password">            
+            </div>
+
+            <div class="fieldChild2">
+                <label for="lastName">Last Name</label>
+                <input type="text" name="lastName" id="lastName">
+                <label for="phone">Phone Number</label>
+                <input type="number" name="phone" id="phone">
+                <label for="confPassword">Confirm Password</label>
+                <input type="confPassword" name="confPassword" id="confPassword">
+            </div>
+
         </fieldset>
         <button type="submit">Create Account</button>
-        <p>Already have an account? <a>Log in</a></p>
+        <span>Already have an account? <a href="">Log in</a></span>
     </div>
 </body>
 </html>
