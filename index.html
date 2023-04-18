@@ -10,29 +10,45 @@
 <body>
     <img src="ferns.avif" alt="ferns" class="sidebarIMG">
     <div class="formBody">
-        <p>This isn't a real online service! I'm trying to teach myself webdev and this is one of the projects in TheOdinProject. Check out the forms below!</p>
-        <fieldset>
-            <legend>Sign up homie, you know you want to</legend>
+        <p>This isn't a real online service. I'm trying to teach myself webdev and this is one of the projects in TheOdinProject. Check out the forms below!</p>
+        <div class="borderBox">
+            <fieldset>
+                <legend>Sign up, you know you want to</legend>
 
-            <div class="fieldChild1">
-                <label for="firstName">First Name</label>
-                <input type="text" id="firstName" name="firstName">
-                <label for="email">Email</label>
-                <input type="email" name="email" id="email">
-                <label for="password">Password</label>
-                <input type="password" name="password" id="password">            
-            </div>
+                <div class="fieldRow">
+                    <div class="fieldUnit">
+                        <label for="firstName">First Name</label>
+                        <input type="text" id="firstName" name="firstName">
+                    </div>
+                    <div class="fieldUnit">
+                        <label for="lastName">Last Name</label>
+                        <input type="text" name="lastName" id="lastName">
+                    </div>                         
+                </div>
 
-            <div class="fieldChild2">
-                <label for="lastName">Last Name</label>
-                <input type="text" name="lastName" id="lastName">
-                <label for="phone">Phone Number</label>
-                <input type="number" name="phone" id="phone">
-                <label for="confPassword">Confirm Password</label>
-                <input type="confPassword" name="confPassword" id="confPassword">
-            </div>
+                <div class="fieldRow">
+                    <div class="fieldUnit">
+                        <label for="email">Email</label>
+                        <input type="email" name="email" id="email">
+                    </div>
+                    <div class="fieldUnit">
+                        <label for="phone">Phone Number</label>
+                        <input type="number" name="phone" id="phone">
+                    </div>
+                </div>
 
-        </fieldset>
+                <div class="fieldRow">
+                    <div class="fieldUnit">
+                        <label for="password">Password</label>
+                        <input type="password" name="password" id="password" required> 
+                    </div>
+                    <div class="fieldUnit">
+                        <label for="confPassword">Confirm Password</label>
+                        <input type="password" name="confPassword" id="confPassword" required>
+                    </div>
+                </div>
+            </fieldset>
+        </div>
         <button type="submit">Create Account</button>
         <span>Already have an account? <a href="">Log in</a></span>
     </div>
