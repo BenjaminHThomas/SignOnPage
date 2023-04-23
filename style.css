@@ -11,7 +11,6 @@ body {
     object-fit: cover;
 }
 
-
 .orgName {
     color: rgba(197, 245, 221, 0.719);
     font-weight: bolder;
@@ -64,7 +63,7 @@ fieldset {
 }
 
 input {
-    margin: 0 80px 30px 0;
+    margin: 0 80px 1rem 0;
     width: 300px;
     height: 25px;
     border-radius: 5px;
@@ -72,8 +71,17 @@ input {
     border-width: 1px;
 }
 
-input:focus {
-    border-color: lightblue;
+#password1,
+#password2 {
+    margin-bottom: "1rem";
+}
+
+.error{
+    color: red;
+    padding: 0;
+    box-sizing: border-box;
+    margin: 0;
+    font-size: 0.9em;
 }
 
 /* Remove number arrow */

@@ -5,12 +5,13 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
 
     <!-- The below is for the custom font for the organisation name "RIBBIT"-->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
-    
+
     <title>Sign in</title>
 </head>
 <body>
@@ -49,12 +50,14 @@
 
                 <div class="fieldRow">
                     <div class="fieldUnit">
-                        <label for="password">Password</label>
-                        <input type="password" name="password" id="password" required> 
+                        <label for="password1">Password</label>
+                        <input type="password" name="password1" id="password1" required> 
+                        <span class="error"></span>
                     </div>
                     <div class="fieldUnit">
-                        <label for="confPassword">Confirm Password</label>
-                        <input type="password" name="confPassword" id="confPassword" required>
+                        <label for="password2">Confirm Password</label>
+                        <input type="password" name="password2" id="password2" required>
+                        <span class="error"></span>
                     </div>
                 </div>
             </fieldset>
