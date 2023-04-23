@@ -8,9 +8,13 @@
     <title>Sign in</title>
 </head>
 <body>
+    <div class="imgOverlay">
+        <img src="frog-svgrepo-com.svg" alt="frog Icon" class="frogIcon">
+        <span class="orgName">RIBBIT</span>
+    </div>
     <img src="ferns.avif" alt="ferns" class="sidebarIMG">
     <div class="formBody">
-        <p>This isn't a real online service. I'm trying to teach myself webdev and this is one of the projects in TheOdinProject. Check out the forms below!</p>
+        <p>This isn't a real online service. I'm trying to teach myself webdev and this is one of the projects in TheOdinProject. <br><br>Check out the forms below!</p>
         <div class="borderBox">
             <fieldset>
                 <legend>Sign up, you know you want to</legend>
@@ -50,7 +54,7 @@
             </fieldset>
         </div>
         <button type="submit">Create Account</button>
-        <span>Already have an account? <a href="">Log in</a></span>
+        <span id="existAcc">Already have an account? <a href="">Log in</a></span>
     </div>
 </body>
 </html>
