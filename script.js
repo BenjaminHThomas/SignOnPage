@@ -26,3 +26,14 @@ passwordInputs.forEach(input => {
     });
   });
 
+  // Let's add an animation to the frog so it hops when you click it
+
+  const frogIcon = document.querySelector('.frogIcon');
+
+  frogIcon.addEventListener('click', () => {
+    frogIcon.classList.add('clicked');
+    setTimeout(() => {
+      frogIcon.classList.remove('clicked');
+    }, 200);
+  });
+  
