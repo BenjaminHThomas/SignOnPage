@@ -23,7 +23,7 @@ body {
 }
 
 .frogIcon {
-    width: clamp(60px, 120px, 20vw);
+    width: 120px;
     justify-self: center;
 }
 
@@ -191,4 +191,7 @@ button:hover {
 .hint {
     font-size: smaller;
     color: #2d614977;
+    position: absolute;
+    bottom: 0;
+    right: 10px;
 }
