@@ -36,4 +36,5 @@ passwordInputs.forEach(input => {
       frogIcon.classList.remove('clicked');
     }, 200);
   });
+  //
   
