@@ -41,6 +41,7 @@ body {
 
 .formBody {
     display: flex;
+    position: relative;
     flex-direction: column;
     background-color: #f7f7f7;
 }
