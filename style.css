@@ -1,3 +1,7 @@
+:root {
+    --width: 30vw;
+}
+
 body {
     display: flex;
     flex-direction: row;
@@ -7,7 +11,7 @@ body {
 }
 
 .sidebarIMG {
-    width: 30vw;
+    width: var(--width);
     object-fit: cover;
 }
 
@@ -132,14 +136,29 @@ button:hover {
     transition: box-shadow 0.2s ease-in-out;
 }
 
-a {
+#logIn {
     color: #2d6149;
     text-decoration: none;
     font-weight: 800;
 }
 
-a:hover {
+#logIn:hover {
     text-decoration:underline;
+}
+
+.imgCredit {
+    color: white;
+    font-size: small;
+    font-family: sans-serif;
+    position: absolute;
+    width: var(--width);
+    text-align: center;
+    bottom: 4px;
+}
+
+.imgCredit > a {
+    text-decoration: underline;
+    color: white;
 }
 
 #existAcc {
